@@ -1,0 +1,21 @@
+{
+  "name": "crawling-meterial-cost",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "crawling": "node crawling.js",
+    "prisma": "npx prisma migrate dev --name init --preview-feature"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.1.0",
+    "axios": "^1.4.0",
+    "nodemon": "^3.0.1",
+    "prisma": "^5.1.0"
+  },
+  "type": "module"
+}
